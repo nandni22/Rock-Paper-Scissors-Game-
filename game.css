@@ -1,0 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+   
+    
+}
+
+
+h1{
+    background-color: black;
+    color:white;
+    text-align: center;
+    height:50px;
+   
+}
+.cantener{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap:3rem;
+    margin-top: 5px;
+    
+   
+}
+.cantener:hover{
+   /* border:2px solid black; */
+    cursor:pointer;
+}
+
+.option{
+    height:200px;
+    width:200px;
+    border-radius:50%;
+    background-color: red;
+    border:10px solid white;  
+
+}
+.option:hover{
+    border:10px solid black;   
+}
+.rock{
+   
+    background-image: url("rock.png");
+    background-size:cover;
+  
+}
+.paper{
+   
+    background-image:url("paper.png");
+    background-size:cover;
+    
+}
+.scissors{
+    background-image:url("scissor.png");
+    background-size:cover;
+}
+.choice{
+    /* tex:5px; */
+    /* text-align:center; */
+    display: flex;
+    gap:3rem;
+    justify-content: center;
+    font-size: 2rem;
+    /* margin-top:2rem ; */
+
+}
+#result{
+    
+    background-color: black;
+    /* width:100px; */
+    border-radius: 6px;
+  margin-top: 1rem;
+  color:white;
+  font-size: 2rem;
+  display: inline;
+  padding:1rem;
+
+
+}
+.camp-choice{
+    height:180px;
+    width:180px;
+    border:4px solid black;
+    border-radius:50%;
+    margin-top:1rem ;
+    /* align-items: center;
+    justify-content: center;
+    display: flex; */
+    /* margin-left:650px; */
+   
+}
+#user,#cam{
+    font-size: 4rem;
+    margin-left: 1.2rem;
+}
+.line3{
+    width:100vw;
+    display:flex;
+    justify-content: center;    
+}
+.line4{
+    width:100vw;
+    display:flex;
+    justify-content: center; 
+    margin-top: 1rem; 
+ 
+    
+}
+.rock1{
+    height:200px;
+    width:200px;
+    border:10px solid black;
+    /* background-color: aqua; */
+    border-radius: 50%;
+}
+/* .cantener1{
+    height:250px;
+    width:250px;
+
+} */
+
