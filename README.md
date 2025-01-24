@@ -1,1 +1,2 @@
-# Rock-Paper-Scissors-Game-
+# Rock-Paper-Scissors-Game
+a practice of javaScript implementation in HTML files
